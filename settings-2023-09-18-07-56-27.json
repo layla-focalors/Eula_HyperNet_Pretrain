@@ -1,0 +1,31 @@
+{
+    "datetime": "2023-09-18 07:56:27",
+    "model_name": "v1-5-pruned-emaonly",
+    "model_hash": "6ce0161689",
+    "num_of_dataset_images": 4,
+    "layer_structure": [
+        1.0,
+        2.0,
+        1.0
+    ],
+    "activation_func": "linear",
+    "weight_init": "Normal",
+    "add_layer_norm": false,
+    "use_dropout": false,
+    "hypernetwork_name": "EULA_NET",
+    "learn_rate": "0.00001",
+    "batch_size": 1,
+    "gradient_step": 1,
+    "data_root": "C:\\Users\\user\\Desktop\\HyperNetwork\\EULA_NET",
+    "log_directory": "textual_inversion\\2023-09-18\\EULA_NET",
+    "training_width": 512,
+    "training_height": 512,
+    "steps": 100000,
+    "clip_grad_mode": "disabled",
+    "clip_grad_value": "0.1",
+    "latent_sampling_method": "once",
+    "create_image_every": 500,
+    "save_hypernetwork_every": 500,
+    "template_file": "C:\\Users\\user\\Documents\\imozi_diffusion\\stable-diffusion-webui\\textual_inversion_templates\\style_filewords.txt",
+    "initial_step": 0
+}
